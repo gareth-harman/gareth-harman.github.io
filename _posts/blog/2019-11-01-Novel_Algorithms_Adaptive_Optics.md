@@ -18,10 +18,18 @@ Adaptive optics is an imaging modality designed by NASA to track russian satelli
 
 ## Overview
 
-- Essentially, we want to identify a new metric that helps to validate cones identified by automated cone detection algorithms are stable across imaging sessions
-- 
+- There are many formal analyses a researcher may do with these images, however, they are all contingent on the ability to identify the position of each individual cone
+- As one can imagine, it is unfeasible to hand identify each of the ~7,000,000 cones in the retina  
+- While great progress has been made in using automated cone detection methods, these methods rely on manual validation, and are not perfect
+- Therefore, here we propose a novel metric that helps to validate cones identified by automated cone detection algorithms are stable across imaging sessions
 
-### Cone Location Similarity Algorithm
+### Steps
+
+1) Image the same position on the retina 3+ times
+2) Register each image 
+3) Identify cones that appear within some thereshold distance \\(t\) within each separate imaging acquisition
+
+### Cone Location Similarity Algorithm: **Formal**
 
 \\(C_i\\) is a matrix containing the pixel coordinates for each of the n cones from image \\(i\\).
 
@@ -64,6 +72,16 @@ Finally, cone location similarity is reported as the percentage of the number of
 $$
 C L S=\frac{C_{s}}{\frac{1}{N} \sum_{i=1}^{N} n_{c}} \times 100
 $$
+
+**Three acuisition: Good Quality**
+![](/images/blogs/novel_algorithms/all_three_good.png)
+
+Here we see the counts are relatively stable across each of the three sessions.
+
+**Three acuisition: Poor Quality**
+![](/images/blogs/novel_algorithms/all_three_poor.png)
+
+Here we see the counts are slightly less stable across each of the three sessions. However, one might notice the actual pixel coordinates for the identified cones looks highly variable for each acquisition
 
 
 ![](/images/blogs/novel_algorithms/novel_algorithms__new_overview.png)
