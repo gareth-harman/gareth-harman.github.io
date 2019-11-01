@@ -83,9 +83,10 @@ Here we see the counts are relatively stable across each of the three sessions.
 
 Here we see the counts are slightly less stable across each of the three sessions. However, one might notice the actual pixel coordinates for the identified cones looks highly variable for each acquisition
 
+*lets run the CLS algorithm to identify cones within each acquisition within the threshold distance of 5 pixels*
+
 ![](/images/blogs/novel_algorithms/cone_sim.png)
 
-![](/images/blogs/novel_algorithms/novel_algorithms__new_overview.png)
+We see exactly as hypothesized above. While the counts to not reflect great variability in the series of lower quality images, the actual positions of these identified cones is greatly unstable. This instability is something not captured by either the actual number of photoreceptors or even the variability in counts over each acquisition. Only does this new CLS algorithm reveal the positional variability in these cones identified by automated detection methods.
 
-- More text down here
 
