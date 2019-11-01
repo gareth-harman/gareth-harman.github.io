@@ -16,7 +16,7 @@ Adaptive optics is an imaging modality designed by NASA to track russian satelli
 
 ![](/images/blogs/novel_algorithms/ao_system.png)
 
-*Credit Gill Et Al. 2019 Cellular imaging of inherited retinal diseases using adaptive optics*
+*Photo Credit Gill Et Al. 2019 Cellular imaging of inherited retinal diseases using adaptive optics*
 
 
 \\(C_i\\) is a matrix containing the pixel coordinates for each of the n cones from image \\(i\\).
@@ -25,7 +25,7 @@ $$
 C_{i}=\left[\begin{array}{c}{\left(x_{1}, y_{1}\right)} \\ {\cdots} \\ {\left(x_{n}, y_{n}\right)}\end{array}\right]
 $$
 
-We can represent pixel coordinates \\((x_1, y_1)\\) for the first cone in set \\(C_i\\) as \\(c_1\\) and declare the Euclidean distance between coordinates \\(c_1\\) and \\(c_2\\) as \\(||c_1, c_2||^2\\)
+We can represent pixel coordinates \\((x_1, y_1)\\) for the first cone in set \\(C_i\\) as \\(c_1\\) and declare the Euclidean distance between coordinates \\(c_1\\) and \\(c_2\\) as \\(|c_1, c_2|^2\\)
 
 
 $$
