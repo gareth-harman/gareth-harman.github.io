@@ -2,7 +2,7 @@
 layout: page
 title: About me
 excerpt: "..."
-modified: 2017-03-11T19:44:38.564948-04:00
+modified: 2019-10-31T19:44:38.564948-04:00
 image:
   feature: omniglot_header_dark.jpg
 ---
