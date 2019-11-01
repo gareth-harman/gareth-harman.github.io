@@ -83,6 +83,7 @@ Here we see the counts are relatively stable across each of the three sessions.
 
 Here we see the counts are slightly less stable across each of the three sessions. However, one might notice the actual pixel coordinates for the identified cones looks highly variable for each acquisition
 
+![](/images/blogs/novel_algorithms/cone_sim.png)
 
 ![](/images/blogs/novel_algorithms/novel_algorithms__new_overview.png)
 
