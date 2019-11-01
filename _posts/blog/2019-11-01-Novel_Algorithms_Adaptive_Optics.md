@@ -14,9 +14,12 @@ tags: [adaptive optics, retinal, retinal imaging, algorithms]
 
 Adaptive optics is an imaging modality designed by NASA to track russian satellites during the Cold War. 
 
-![](/images/_blogs/2019-11-01-Novel_Algorithms_Adaptive_Optics/ao_system.PNG)
+![](/images/_blogs/2019-11-01-Novel_Algorithms_Adaptive_Optics
+/ao_system.PNG)
+
 *Credit Gill Et Al. 2019 Cellular imaging of inherited retinal diseases using adaptive optics*
 
+C:\Users\Gareth\Desktop\gareth-harman.github.io\images\_blogs\2019-11-01-Novel_Algorithms_Adaptive_Optics
 
 $`C_i`$ is a matrix containing the pixel coordinates for each of the n cones from image $`i`$.
 
