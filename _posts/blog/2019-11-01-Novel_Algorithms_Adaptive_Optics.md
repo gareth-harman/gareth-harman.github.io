@@ -57,7 +57,7 @@ $$
 We can represent pixel coordinates \\((x_1, y_1)\\) for the first cone in set \\(C_i\\) as \\(c_1\\) and declare the Euclidean distance between coordinates \\(c_1\\) and \\(c_2\\) as...
 
 $$
-|c_{1}, c_{2}|^{2}
+||c_{1}, c_{2}||^{2}
 $$
 
 And,
