@@ -10,11 +10,19 @@ image:
 tags: [adaptive optics, retinal, retinal imaging, algorithms]
 ---
 
+---
+
 **Origin Publication**
 
-*Repeatability of Adaptive Optics Automated Cone Measurements in Subjects With Retinitis Pigmentosa and Novel Metrics for Assessment of Image Quality*
+[*Repeatability of Adaptive Optics Automated Cone Measurements in Subjects With Retinitis Pigmentosa and Novel Metrics for Assessment of Image Quality*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6506201/)
+**Transl Vision Science & Technology**
+*2019 May; 8(3): 17*
+
+
 
 Authors: `Michael Gale`, `Gareth Harman`, `Jimmy Chen`, `Mark Pennesi`
+
+---
 
 
 ## Novel Algorithms for Adaptive Optics
