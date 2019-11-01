@@ -90,7 +90,7 @@ $$
 
 **Three acuisitions: Good Quality**
 
-<div align="center" style="width: 1000px; height: 600px;">
+<div style="width: 1000px; height: 600px;">
 
 <img src="/images/blogs/novel_algorithms/three_good.png" width = "50%" height="50%">
 
@@ -100,7 +100,7 @@ Here we see the counts are relatively stable across each of the three sessions.
 
 **Three acuisitions: Poor Quality**
 
-<div align="center" style="width: 1000px; height: 600px;">
+<div style="width: 1000px; height: 600px;">
 
 <img src="/images/blogs/novel_algorithms/three_poor.png" width = "50%" height="50%">
 
