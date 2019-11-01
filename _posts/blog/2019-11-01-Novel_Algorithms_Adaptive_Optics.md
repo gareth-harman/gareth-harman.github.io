@@ -92,21 +92,13 @@ $$
 
 **Three acuisitions: Good Quality**
 
-<div style="width: 1000px; height: 600px;">
-
-<img src="/images/blogs/novel_algorithms/three_good.png" width = "50%" height="50%">
-
-</div>
+![](/images/blogs/novel_algorithms/all_three_good.png)
 
 Here we see the counts are relatively stable across each of the three sessions.
 
 **Three acuisitions: Poor Quality**
 
-<div style="width: 1000px; height: 600px;">
-
-<img src="/images/blogs/novel_algorithms/three_poor.png" width = "50%" height="50%">
-
-</div>
+![](/images/blogs/novel_algorithms/all_three_poor.png)
 
 Here we see the counts are slightly less stable across each of the three sessions. However, one might notice the actual pixel coordinates for the identified cones looks highly variable for each acquisition
 
