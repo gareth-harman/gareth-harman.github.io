@@ -89,12 +89,22 @@ C L S=\frac{C_{s}}{\frac{1}{N} \sum_{i=1}^{N} n_{c}} \times 100
 $$
 
 **Three acuisitions: Good Quality**
-![](/images/blogs/novel_algorithms/three_good.png)
+
+<div align="center" style="width: 1000px; height: 600px;">
+
+<img src="/images/blogs/novel_algorithms/three_good.png" width = "50%" height="50%">
+
+</div>
 
 Here we see the counts are relatively stable across each of the three sessions.
 
 **Three acuisitions: Poor Quality**
-![](/images/blogs/novel_algorithms/three_poor.png)
+
+<div align="center" style="width: 1000px; height: 600px;">
+
+<img src="/images/blogs/novel_algorithms/three_poor.png" width = "50%" height="50%">
+
+</div>
 
 Here we see the counts are slightly less stable across each of the three sessions. However, one might notice the actual pixel coordinates for the identified cones looks highly variable for each acquisition
 
