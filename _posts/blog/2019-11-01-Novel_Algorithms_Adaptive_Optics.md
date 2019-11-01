@@ -66,7 +66,7 @@ C L S=\frac{C_{s}}{\frac{1}{N} \sum_{i=1}^{N} n_{c}} \times 100
 $$
 
 
-![](images/novel_algorithms__new_overview.png)
+![](/images/novel_algorithms__new_overview.png)
 
 - More text down here
 
