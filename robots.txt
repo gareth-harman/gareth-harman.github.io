@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: sorenbouma.github.io/sitemap.xml
+Sitemap: gareth-harman.github.io/sitemap.xml
