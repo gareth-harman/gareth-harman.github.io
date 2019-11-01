@@ -1,22 +1,22 @@
 ---
 layout: post
-title:  One Shot Learning and Siamese Networks in Keras
+title: 	Function Random Forest Validation
 categories: blog
-date: 2017-03-29
+date: 2019-10-31
 published: true
 share: true
 image:
   feature: omniglot_header_dark.jpg
-tags: [one-shot-learning, deep-learning, neural-network, siamese-network, machine-learning,tutorial,keras]
+tags: [functional random forest, sklearn, synthetic data, algorithm validation]
 ---
 
+# The Function Random Forest
 
-*[Epistemic status: I have no formal training in machine learning or statistics so some of this might be wrong/misleading, but I've tried my best.]*
+## Synthetic Dataset Generation
 
+We are going to be using sklearns.dataset function `make_classification`
 
 ## Background:
-
- Conventional wisdom says that deep neural networks are really good at learning from high dimensional data like images or spoken language, but only when they have huge amounts of labelled examples to train on. Humans on the other hand, are capable of *one-shot learning* - if you take a human who's never seen a spatula before, and show them a single picture of a spatula, they will probably be able to distinguish spatulas from other kitchen utensils with astoundingly high precision.
 
 
 <figure>
