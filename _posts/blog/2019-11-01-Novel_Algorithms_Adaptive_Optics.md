@@ -6,7 +6,7 @@ date: 2019-11-01
 published: true
 share: true
 image:
-  feature: my_ao.png
+  feature: my_ao_filt.png
 tags: [adaptive optics, retinal, retinal imaging, algorithms]
 ---
 
