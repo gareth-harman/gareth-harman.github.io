@@ -32,9 +32,9 @@ Adaptive optics is an imaging modality designed by NASA to track russian satelli
 
 ### Steps
 
-1) Image the same position on the retina 3+ times
-2) Register each image 
-3) Identify cones that appear within some thereshold distance \\(t\) within each separate imaging acquisition
+1) Image the same position on the retina 3+ times  
+2) Register each image   
+3) Identify cones that appear within some thereshold distance \\(t\) within each separate imaging acquisition  
 
 ### Cone Location Similarity Algorithm: **Formal**
 
