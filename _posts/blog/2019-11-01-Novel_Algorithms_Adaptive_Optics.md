@@ -12,7 +12,7 @@ tags: [adaptive optics, retinal, retinal imaging, algorithms]
 
 ## Novel Algorithms for Adaptive Optics
 
-Adaptive optics is an imaging modality designed by NASA to track russian satellites during the Cold War. 
+Adaptive optics $C L S=\frac{C_{s}}{\frac{1}{N} \sum_{i=1}^{N} n_{c}} \times 100$ is an imaging modality designed by NASA to track russian satellites during the Cold War. 
 
 ![](/images/blogs/novel_algorithms/ao_system.png)
 
