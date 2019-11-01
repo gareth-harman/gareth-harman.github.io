@@ -6,7 +6,7 @@ date: 2019-11-01
 published: true
 share: true
 image:
-  feature: omniglot_header_dark.jpg
+  feature: my_ao.png
 tags: [adaptive optics, retinal, retinal imaging, algorithms]
 ---
 
@@ -57,5 +57,5 @@ C L S=\frac{C_{s}}{\frac{1}{N} \sum_{i=1}^{N} n_{c}} \times 100
 $$
 
 
+![](/images/blogs/novel_algorithms/new_overview.png.png)
 
-![](images/_blogs/2019-11-01-Novel_Algorithms_Adaptive_Optics/new_overview.PNG)
