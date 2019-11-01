@@ -12,11 +12,9 @@ tags: [adaptive optics, retinal, retinal imaging, algorithms]
 
 ## Novel Algorithms for Adaptive Optics
 
-Adaptive optics is an imaging modality designed by NASA to track russian satellites during the Cold War. 
+Adaptive optics is an imaging modality designed by NASA to track russian satellites during the Cold War. It is an optical system that detects and then corrects for aberrations in the wavefront using a deformable mirror situated atop a matrix of actuators. The system can correct for motion artifact present in imaging applications. In the case of imaging satellites the target is large and the path length is quite long. This problem can be recast to imaging photoreceptors at the back of the eye in the retina. The eye is in constant motion, these rapid movements make imaging at the cellular level very difficult despite having a very short path length. See below for a figure from *Gill Et Al. 2019 Cellular imaging of inherited retinal diseases using adaptive optics* describing the optical.
 
 ![](/images/blogs/novel_algorithms/ao_system.png)
-
-*Photo Credit Gill Et Al. 2019 Cellular imaging of inherited retinal diseases using adaptive optics*
 
 
 \\(C_i\\) is a matrix containing the pixel coordinates for each of the n cones from image \\(i\\).
