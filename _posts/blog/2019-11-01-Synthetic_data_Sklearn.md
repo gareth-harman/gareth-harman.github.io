@@ -26,16 +26,25 @@ import numpy as np
 from sklearn.datasets import sample_gen_gh as gh
 import matplotlib.pyplot as plt
 
-X, Y, clust = make_classification(n_samples=1000,
-							 n_features=3, 
-							 n_informative=3,
-            				 n_redundant=0, 
-            				 n_repeated=0, 
-            				 n_classes=2,
-            				 n_clusters_per_class=4, 
-            				 class_sep = sep_val, 
-            				 shuffle = False)
+# Iterate through varying class_sep
+for sep_val in np.arange(.75, 4.75, 1.0):
+
+	# Create data
+	X, Y, clust = make_classification(n_samples=1000,
+		n_features=3,
+		n_informative=3,
+		n_redundant=0,
+		n_repeated=0,
+		n_classes=2,
+		n_clusters_per_class=4,
+		class_sep = sep_val,
+		shuffle = False)
+
+	write_3d_plot(X, Y)
 
 ```
+### Class Separation
+
+Let's, examine how the class_sep looks within the data
 
 ![](/images/blogs/data_synth/plot_sep.png)
