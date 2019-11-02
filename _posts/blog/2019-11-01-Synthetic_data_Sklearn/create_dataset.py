@@ -30,11 +30,11 @@ def make_data(sep_val):
 # Plot the new communities form kMeans
 ###############################################################################
     
-def plot_3d(X, inds, lab, outPath, write = False, show = False, title = '_'):
+def plot_3d(X, inds, lab, outPath, write = False, title = '_'):
     
     fig = plt.figure()
     ax = fig.gca(projection='3d')
-    ax.view_init(elev=15., azim=-24)
+    #ax.view_init(elev=25., azim=-21)
     ax.scatter3D(X[:, inds[0]], 
                  X[:, inds[1]], 
                  X[:, inds[2]], 
@@ -43,9 +43,10 @@ def plot_3d(X, inds, lab, outPath, write = False, show = False, title = '_'):
                  s=25, 
                  edgecolor='k')
 
-    fig.savefig(outPath)
-    plt.title(title, fontsize='small')
+    plt.title(title)
     plt.show()
+    fig.savefig(outPath)
+
     
     
 
@@ -54,11 +55,11 @@ if __name__ == "__main__":
     parDir = 'C:/Users/Gareth/Desktop/'
     inds = np.array([0, 1, 2])
     
-    for ii in np.arange(1, 3.75, .75):
+    for ii in np.arange(.75, 4.75, 1):
 
         X, Y, clust = make_data(ii)   
         
         plot_3d(X, inds, clust, 
                 parDir + 'plot3_' + str(ii) + '.png' , 
-                write = True, show = False, 
+                write = True,  
                 title = 'Class: 2 Clusters: 4 Sep: ' + str(ii))
