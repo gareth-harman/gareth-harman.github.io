@@ -12,7 +12,7 @@ tags: [synthetic data, sklearn, data synthesis, algorithm validation]
 
 # Synthetic Data Generation 
 
-We are going to be using **sklearns** function ```python dataset.make_classification()``` to create synthetic datasets. We can specifiy arguments to specify the number of *informative, redundant,* and *repeated* features in the dataset. Synthetic data can be great as we can control every aspect of our data including the *number of classes, features (informative, redundant, repeating, noise), clusters within each class, and the separation of these clusters*.
+We are going to be using **sklearn**'s function `datasets.make_classification()` to create synthetic datasets. We can specifiy arguments to specify the number of *informative, redundant,* and *repeated* features in the dataset. Synthetic data can be great as we can control every aspect of our data including the *number of classes, features (informative, redundant, repeating, noise), clusters within each class, and the separation of these clusters*.
 
 **There are many opportunities to examine...**
 
@@ -63,6 +63,8 @@ for sep_val in np.arange(.75, 4.75, 1.0):
 ```
 
 ![](/images/blogs/data_synth/plot_sep.png)
+
+## Validation of the Function Random Forest (FRF)
 
 We are going to be examining a new algorithm developed by Feczko et al 2018 [Functional Random Forest](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30092-0). In the case of a binary classification problem, the algorithm builds a random forest to classify a specified training portion of the data, after which it creates a proximity matrix from the structure of said forest where each node represents an observation and every edge denotes the number of times two observations found themselves in the same terminal node from the random forest. From this point, one can identify community substructure using community detection methods, in the case of the FRF, infomap community detection. 
 
