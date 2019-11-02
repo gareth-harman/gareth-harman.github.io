@@ -12,7 +12,13 @@ tags: [synthetic data, sklearn, data synthesis, algorithm validation]
 
 # Synthetic Data Generation 
 
-We are going to be using sklearns.dataset function `make_classification`
+We are going to be using `sklearns.dataset` function `make_classification()` to create synthetic datasets. 
+
+**Primary Goals**
+
+- Two class labels with varying class separability
+- Four clusters per class
+- Varying levels of cluster separation
 
 ```python
 

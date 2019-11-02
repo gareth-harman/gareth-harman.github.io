@@ -90,13 +90,13 @@ $$
 C L S=\frac{C_{s}}{\frac{1}{N} \sum_{i=1}^{N} n_{c}} \times 100
 $$
 
-**Three acuisitions: Good Quality**
+**Three acquisitions: Good Quality**
 
 ![](/images/blogs/novel_algorithms/all_three_good.png)
 
 Here we see the counts are relatively stable across each of the three sessions.
 
-**Three acuisitions: Poor Quality**
+**Three acquisitions: Poor Quality**
 
 ![](/images/blogs/novel_algorithms/all_three_poor.png)
 
