@@ -75,11 +75,11 @@ We will further be dilineating how class separation alters the underlying struct
 
 **Class sep 2.5**
 
-![](/images/blogs/data_synth/clustering_1_5.png)
+![](/images/blogs/data_synth/clustering_2_5.png)
 
 **Class sep 3.5**
 
-![](/images/blogs/data_synth/clustering_1_5.png)
+![](/images/blogs/data_synth/clustering_3_5.png)
 
 
 
