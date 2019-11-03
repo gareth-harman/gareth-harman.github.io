@@ -61,6 +61,7 @@ for sep_val in np.arange(.75, 4.75, 1.0):
 	write_3d_plot(X, Y)
 
 ```
+![](/images/blogs/data_synth/plot_sep.png)
 
 ## Visualizing relationships within the data
 
@@ -82,5 +83,4 @@ We will further be dilineating how class separation alters the underlying struct
 
 
 
-![](/images/blogs/data_synth/plot_sep.png)
 
