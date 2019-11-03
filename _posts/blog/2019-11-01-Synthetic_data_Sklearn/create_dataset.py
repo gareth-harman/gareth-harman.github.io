@@ -16,7 +16,7 @@ def make_data(sep_val, nfeat):
     
     X, Y, clust = gh.make_classification(n_samples=1000, 
     									 n_features=nfeat, 
-    									 n_informative=5,
+    									 n_informative=10,
     	                				 n_redundant=5, 
     	                				 n_repeated=5, 
     	                				 n_classes=2,
@@ -64,3 +64,6 @@ if __name__ == "__main__":
                 parDir + 'plot3_' + str(ii) + '.png' , 
                 write = True,  
                 title = 'Class: 2 Clusters: 4 Sep: ' + str(ii))
+
+ff = np.loadtxt('C:/Users/Gareth/Desktop/samp_arr.txt', delimiter=',')
+sns.heatmap(ff) # cmap="YlGnBu", 

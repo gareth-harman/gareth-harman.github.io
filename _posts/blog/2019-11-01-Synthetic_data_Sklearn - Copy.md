@@ -30,8 +30,8 @@ For the sake of this demonstration we are going to focus on this bit; **Performa
 
 ### Class Separation
 
-- Let's, examine how the class_sep looks within the data  
-- We will only select to create 3 features to better visualize the class separation. However, one can imagine that 
+- Let's, examine how the class_sep affects the data   
+- We will only engineer 3 features to better visualize the class separation 
 
 
 ```python
