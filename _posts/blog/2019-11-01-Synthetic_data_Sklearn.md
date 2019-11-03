@@ -84,9 +84,3 @@ We will further be dilineating how class separation alters the underlying struct
 
 ![](/images/blogs/data_synth/plot_sep.png)
 
-## Validation of the Function Random Forest (FRF)
-
-We are going to be examining a new algorithm developed by Feczko et al 2018 [Functional Random Forest](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30092-0). In the case of a binary classification problem, the algorithm builds a random forest to classify a specified training portion of the data, after which it creates a proximity matrix from the structure of said forest where each node represents an observation and every edge denotes the number of times two observations found themselves in the same terminal node from the random forest. From this point, one can identify community substructure using community detection methods, in the case of the FRF, infomap community detection. 
-
-We are going to try and use synthetic data, with known community class community structure to identify the algorithms ability to capture the "ground truth" community labels.
-
