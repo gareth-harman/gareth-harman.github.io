@@ -28,6 +28,6 @@ image:
 
 | Description                                                                                       | Languages  | Tools                |
 |---------------------------------------------------------------------------------------------------|------------|----------------------|
-| [3D-CNN to detect symptom presence in structural MRI](https://gitlab.com/harman_school/dl_3d_cnn) |   - Python |  - PyTorych - 3D CNN |
+| [<span style="color:grey">3D-CNN to detect symptom presence in structural MRI</span>](https://gitlab.com/harman_school/dl_3d_cnn) | ![](/images/language_icons/python.png) ![](/images/language_icons/R.png) |  - PyTorych- 3D CNN |
 |                                                                                                   |            |                      |
 |                                                                                                   |            |                      |
