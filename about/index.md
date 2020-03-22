@@ -4,7 +4,7 @@ title: About me
 excerpt: "..."
 modified: 2019-10-31T19:44:38.564948-04:00
 image:
-  feature: omniglot_header_dark.jpg
+  feature: fog_crop.jpg
 ---
 
 My name is Gareth and I am a first year PhD student studying [Bioinformatics and Computational Biology](https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/) at Oregon Health & Science University. I am currently a student in Dr. Bonnie Nagel's [Developmental Brain Imaging Lab](https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/psychiatry/research/developmental-brain-imaging-lab/index.cfm) where I am interested in using high dimensional behavioral and neuroimaging data to build models to predict trait behavior leading to alcohol and substance abuse in adolescence.  
