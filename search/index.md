@@ -8,6 +8,8 @@ image:
   feature:
 search_omit: true
 sitemap: false
+image:
+  feature: fog_crop.jpg
 ---
   
 <!-- Search form -->
