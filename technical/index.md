@@ -23,3 +23,5 @@ image:
 ### Tools
 
 - Git
+
+![](/images/git_banner.png)
