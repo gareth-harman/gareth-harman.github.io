@@ -2,6 +2,7 @@
 
 <span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}</span>
 <div class="social-icons">
+	{% if site.owner.email %}<a href="mailto:harmang@ohsu.edu" title="{{ site.owner.name}} by Email" target="_blank"><i class="fa fa-email fa-2x"></i></a>{% endif %}
 	{% if site.owner.twitter %}<a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>{% endif %}
 	{% if site.owner.facebook %}<a href="https://facebook.com/{{ site.owner.facebook }}" title="{{ site.owner.name}} on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>{% endif %}
 	{% if site.owner.linkedin %}<a href="https://linkedin.com/in/{{ site.owner.linkedin }}" title="{{ site.owner.name}} on LinkedIn" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>{% endif %}
