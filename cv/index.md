@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
@@ -20,8 +20,9 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> harmang@ohsu.edu
-- <i class="fa fa-github"></i> [gitlab.com/gareth_harman](https://gitlab.com/gareth_harman)
-- <i class="fa fa-phone"></i> 608-797-7503
+- <i class="fa fa-github-alt"></i> [gareth-harman.github.io](https://gareth_harman.github.io)
+- <i class="fa fa-gitlab"></i> [gitlab.com/gareth_harman](https://gitlab.com/gareth_harman)
+- <i class="fa fa-phone"></i> 608.797.7503
 
 Skills {#skills}
 --------------------------------------------------------------------------------
