@@ -20,7 +20,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> harmang@ohsu.edu
-- <i class="fa fa-github-alt"></i> [gareth-harman.github.io](https://gareth_harman.github.io)
+- <i class="fa fa-github-alt"></i> [gareth-harman.github.io](https://gareth-harman.github.io)
 - <i class="fa fa-gitlab"></i> [gitlab.com/gareth_harman](https://gitlab.com/gareth_harman)
 - <i class="fa fa-phone"></i> 608.797.7503
 
